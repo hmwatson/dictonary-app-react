@@ -1,11 +1,31 @@
 .search-box {
   margin-top: 30px;
 }
-.h3 {
+
+h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-weight: 900;
 }
-.Synonyms {
+h5 {
+  margin: 0;
+}
+
+.type-box {
+  border-color: rgb(250, 247, 250);
+  border-radius:6px;
+  padding:4px;
+  border-style:double
+}
+
+.list {
   list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.input {
+  font-weight: 900;
+  margin-top: 20px;
 }

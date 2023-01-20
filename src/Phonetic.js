@@ -1,19 +1,20 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   if (props.phonetic) {
     return (
-      <div className="Phonetic">
+      <section className="Phonetic">
         <a
           href={props.phonetic.audio}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Audio
+          listen
         </a>
         <br />
         {props.phonetic.text}
-      </div>
+      </section>
     );
   } else {
     return null;
