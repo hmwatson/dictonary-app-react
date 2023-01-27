@@ -7,13 +7,13 @@ export default function Meaning(props) {
 
   return (
     <section>
-      <div className="meaning">
-        <h3>{props.meaning.partOfSpeech}</h3>
-        <h5> definition</h5>
+      <div className="Meaning">
+        <h3 clssName="title-meaning">{props.meaning.partOfSpeech}</h3>
         {props.meaning.definitions.map(function(definition, index) {
-          if (index < 3) {
+          if (index < 2) {
             return (
               <div key={index}>
+                <h5 className="title-definition"> definition</h5>
                 <ul className="list">
                   <li>{definition.definition}</li>
                   <h4>{definition.example}</h4>

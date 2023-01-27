@@ -12,20 +12,14 @@ h5 {
   margin: 0;
 }
 
-.type-box {
+.Dictonary .type-box {
   border-color: rgb(250, 247, 250);
-  border-radius:6px;
-  padding:4px;
-  border-style:double
+  border-radius: 6px;
+  padding: 4px;
+  text-align: center;
+  font-weight: 600;
 }
 
-.list {
-  list-style: none;
-  margin: 5px;
-  padding: 0;
-}
 
-.input {
-  font-weight: 900;
-  margin-top: 20px;
-}
+
+

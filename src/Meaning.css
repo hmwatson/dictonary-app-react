@@ -1,4 +1,3 @@
-Meaning,
 section {
   background-color: white;
   border-radius: 8px;
@@ -6,13 +5,27 @@ section {
   margin: 20px 30px;
   padding: 15px;
 }
-.meaning {
-  margin-top: 25px;
+.title-meaning {
+  margin-bottom: 5px;
+}
+.Meaning h4 {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 15px;
 }
 
-.Meaning, h4{
-    font-size:16px;
-    opacity:70%;
-    font-style: italic;
-    margin-top: 10px;
+.title-synonym {
+  font-weight: 700;
+  font-size: 18px;
+}
+.title-definition {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.Meaning .list {
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0px;
 }

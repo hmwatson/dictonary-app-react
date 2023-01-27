@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dictonary.css";
+import "./Results.css";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 
