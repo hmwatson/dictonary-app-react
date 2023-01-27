@@ -16,7 +16,7 @@ export default function Meaning(props) {
               <div key={index}>
                 <ul className="list">
                   <li>{definition.definition}</li>
-                  <em>{definition.example}</em>
+                  <h4>{definition.example}</h4>
                 </ul>
                 {definition.synonyms.length > 1 && (
                   <Synonyms synonyms={definition.synonyms} />

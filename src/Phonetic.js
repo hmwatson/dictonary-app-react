@@ -13,7 +13,7 @@ export default function Phonetic(props) {
           listen
         </a>
         <br />
-        {props.phonetic.text}
+        <div className="phonetic-text">{props.phonetic.text}</div>
       </section>
     );
   } else {
