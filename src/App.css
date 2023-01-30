@@ -2,8 +2,23 @@
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
-  background-image: ;
 }
 body {
   background-color: rgb(247, 241, 239);
+}
+h1 {
+  font-family: "Gallient";
+  font-size: 80px;
+  /* font-family: "Gravitas One", cursive; */
+  padding-top: 60px;
+
+  line-height: 45px;
+}
+.book {
+  font-size: 40px;
+  margin-top: 40px;
+}
+@font-face {
+  font-family: "Gallient"; /*Can be any text*/
+  src: local("Gallient"), url("./fonts/Gallient.ttf") format("truetype");
 }
