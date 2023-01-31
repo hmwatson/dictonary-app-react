@@ -8,9 +8,9 @@ body {
 }
 h1 {
   font-family: "Gallient";
-  font-size: 80px;
+  font-size: 70px;
   /* font-family: "Gravitas One", cursive; */
-  padding-top: 60px;
+  padding: 60px 0 30px;;
 
   line-height: 45px;
 }
@@ -19,6 +19,6 @@ h1 {
   margin-top: 40px;
 }
 @font-face {
-  font-family: "Gallient"; /*Can be any text*/
+  font-family: "Gallient"; 
   src: local("Gallient"), url("./fonts/Gallient.ttf") format("truetype");
 }

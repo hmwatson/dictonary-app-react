@@ -4,7 +4,7 @@ import "./Phonetic.css";
 export default function Phonetic(props) {
   if (props.phonetic) {
     return (
-      <section className="Phonetic">
+      <div className="Phonetic">
         <a
           href={props.phonetic.audio}
           target="_blank"
@@ -14,7 +14,7 @@ export default function Phonetic(props) {
         </a>
         <br />
         <div className="phonetic-text">{props.phonetic.text}</div>
-      </section>
+      </div>
     );
   } else {
     return null;

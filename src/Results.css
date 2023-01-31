@@ -1,4 +1,8 @@
-.Results .input {
-  font-weight: 900;
-  margin-top: 20px;
+/* .Results {
+  min-height: max-content;
+} */
+.box {
+  min-height: max-content;
+  background-color: white;
+  border-radius: 8px;
 }

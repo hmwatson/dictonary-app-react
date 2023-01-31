@@ -12,7 +12,17 @@ h5 {
 .Dictonary .type-box {
   border-color: rgb(250, 247, 250);
   border-radius: 6px;
-  padding: 4px;
+  padding: 2px;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 600;
+  font-size: 18px;
 }
+/* .display-image {
+  padding: 0;
+  max-height: 20px;
+} */
+/* .display-text {
+  padding: 0;
+  min-height: max-content;
+} */

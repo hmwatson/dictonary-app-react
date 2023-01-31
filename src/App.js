@@ -9,9 +9,9 @@ export default function App() {
       <div>
         <i className=" book fa-solid fa-book-open fa-spin"></i>
         <h1>
-         what does it mean
+         dictionary
         </h1>
-        <Dictonary defaultKeyword="sunset" />
+        <Dictonary defaultKeyword="moon" />
       </div>
     </div>
   );

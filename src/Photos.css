@@ -1,4 +1,9 @@
-.Photos img {
-  border-radius: 4px;
-  margin-bottom: 20px;
+.display-image {
+  /* min-height: 100px; */
+  vertical-align: 10px;
+  max-width: 100%;
 }
+/* .Photos {
+  min-height: max-content;
+  height: fit-content;
+} */
