@@ -1,9 +1,23 @@
 .display-image {
-  /* min-height: 100px; */
-  vertical-align: 10px;
+  /* vertical-align: 10px; */
   max-width: 100%;
+  padding: 1px;
 }
-/* .Photos {
+.Photos {
   min-height: max-content;
   height: fit-content;
-} */
+}
+.Photos {
+  line-height: 0;
+  -webkit-column-count: 2; /* split it into 5 columns */
+  -webkit-column-gap: 1px; /* give it a 5px gap between columns */
+  -moz-column-count: 2;
+  -moz-column-gap: 1px;
+  column-count: 2;
+  column-gap: 1px;
+}
+.Photos img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 1px; 
+}

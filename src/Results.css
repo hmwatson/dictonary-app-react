@@ -1,8 +1,10 @@
-/* .Results {
-  min-height: max-content;
-} */
 .box {
   min-height: max-content;
+  margin-top: 15px;
+  padding: 10px;
+}
+.white-bg {
   background-color: white;
+  height: 100%;
   border-radius: 8px;
 }

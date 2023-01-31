@@ -14,7 +14,7 @@ export default function Photos(props) {
                 target="_blank"
               >
                 <img
-                  src={photo.src.portrait}
+                  src={photo.src.original}
                   alt="#"
                   className="display-image"
                 />

@@ -24,7 +24,7 @@ export default function Dictonary(props) {
 
     let pexelsApiKey =
       "563492ad6f9170000100000104663ae2c247449f800144770696fdb3";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
 
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
@@ -53,12 +53,16 @@ export default function Dictonary(props) {
             defaultValue={props.defaultKeyword}
           />
         </form>
-        <div className=" row">
-          <div className="display-text box col-6">
-            <Results results={results} />
+        <div className=" row gx-5">
+          <div className="col-sm-12 box col-md-6 ">
+            <div className="white-bg box">
+              <Results results={results} />
+            </div>
           </div>
-          <div className=" col-6">
-            <Photos photos={photos} />
+          <div className="col-sm-12 box col-md-6 ">
+            <div className="white-bg box">
+              <Photos photos={photos} />
+            </div>
           </div>
         </div>
       </div>
