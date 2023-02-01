@@ -1,5 +1,8 @@
 .search-box {
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h3 {
@@ -12,10 +15,16 @@ h5 {
 .Dictonary .type-box {
   border-color: rgb(250, 247, 250);
   border-radius: 6px;
-  padding: 2px;
-  margin-bottom: 10px;
   text-align: center;
+  width: auto;
   font-weight: 600;
   font-size: 18px;
 }
+.search-button {
+  margin: 10px;
+  background-color: white;
+  border-color: rgb(250, 247, 250);
+  font-size: 18px;
+  
 
+}
