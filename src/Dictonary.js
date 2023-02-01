@@ -20,7 +20,12 @@ export default function Dictonary(props) {
 
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleDictonaryResponse);
+    axios
+      .get(apiUrl)
+      .then(handleDictonaryResponse)
+      .catch(function() {
+        alert("This is not a word 🥴");
+      });
 
     let pexelsApiKey =
       "563492ad6f9170000100000104663ae2c247449f800144770696fdb3";
@@ -71,12 +76,12 @@ export default function Dictonary(props) {
         </form>
         <div className=" row gx-5">
           <div className="col-sm-12 box col-md-6 ">
-            <div className="white-bg box">
+            <div className="white-bg shadow box">
               <Results results={results} />
             </div>
           </div>
           <div className="col-sm-12 box col-md-6 ">
-            <div className="white-bg box">
+            <div className="white-bg shadow box">
               <Photos photos={photos} />
             </div>
           </div>

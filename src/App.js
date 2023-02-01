@@ -27,14 +27,16 @@ export default function App() {
         <a
           href="https://www.linkedin.com/in/heather-watson-86a041167/"
           target="_blank"
+          class="fa-brands media-links"
         >
-          <i class="fa-brands linkedin fa-linkedin"></i>
+          <i class="fa-brands media-links fa-linkedin"></i>
         </a>
         <a
           href="https://github.com/heatherwatson96/dictonary-app-react"
           target="_blank"
+          class="fa-brands media-links"
         >
-          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands media-links fa-github"></i>
         </a>
       </div>
     </>
