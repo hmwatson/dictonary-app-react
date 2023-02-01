@@ -60,7 +60,7 @@ export default function Dictonary(props) {
           />
           <button
             type="submit"
-            class="btn shadow bg-white rounded search-button btn-light "
+            className="btn shadow bg-white rounded search-button btn-light "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -19,6 +19,7 @@ export default function App() {
           className="footer-link"
           href="https://github.com/heatherwatson96/dictonary-app-react"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Github
         </a>
@@ -27,16 +28,18 @@ export default function App() {
         <a
           href="https://www.linkedin.com/in/heather-watson-86a041167/"
           target="_blank"
-          class="fa-brands media-links"
+          rel="noopener noreferrer"
+          className="fa-brands media-links"
         >
-          <i class="fa-brands media-links fa-linkedin"></i>
+          <i className="fa-brands media-links fa-linkedin"></i>
         </a>
         <a
           href="https://github.com/heatherwatson96/dictonary-app-react"
           target="_blank"
-          class="fa-brands media-links"
+          rel="noopener noreferrer"
+          className="fa-brands media-links"
         >
-          <i class="fa-brands media-links fa-github"></i>
+          <i className="fa-brands media-links fa-github"></i>
         </a>
       </div>
     </>
